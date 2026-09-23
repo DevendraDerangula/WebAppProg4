@@ -59,3 +59,27 @@ tr:nth-child(even) {
     display: inline-block;
     padding: 5px;
 }
+.ibsen-image {
+    width: 180px;
+    height: auto;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+}
+
+.navbar {
+    margin-top: 30px;
+    padding: 12px;
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
