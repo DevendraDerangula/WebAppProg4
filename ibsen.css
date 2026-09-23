@@ -32,3 +32,24 @@ q {
     font-style: italic;
     color: darkred;
 }
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
